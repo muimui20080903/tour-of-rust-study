@@ -1,2 +1,2 @@
 # tour-of-rust-study
-Rustツアーをやってみる
+[Rustツアー](https://tourofrust.com/00_ja.html)をやってみる
