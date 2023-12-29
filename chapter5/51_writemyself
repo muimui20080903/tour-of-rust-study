@@ -1,0 +1,14 @@
+struct Foo {
+    x: i32,
+}
+
+fn do_something(foo: &mut Foo) -> () {
+    foo.x += 1;
+    println!("{}", foo.x);
+}
+
+fn main() {
+    let mut foo = Foo { x: 42 };
+    do_something(&mut foo);
+    do_something(&mut foo);
+}
